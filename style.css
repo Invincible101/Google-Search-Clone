@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* header Starts */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.header a {
+    margin-right: 20px;
+    text-decoration: inherit;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.header-right {
+    display: flex;
+    margin-left: auto;
+    min-width: 13vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-right .header_apps {
+    margin-right: 10px;
+}
+.material-icons {
+    cursor: pointer;
+}
+/* header Ends */
+
+/* Main Boddy Starts */
+.mainBody {
+    flex: 1;
+    display: flex;
+    margin-top: 1%;
+    flex-direction: column;
+}
+
+.mainBody img {
+    object-fit: contain;
+    height: 91px;
+    margin-top: 5px;
+}
+/* Main Boddy Ends */
+
+
+/* searchbar starts */
+.searchbar {
+    margin-bottom: 190px;
+}
+.search-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+}
+
+.search-input input {
+    flex: 1;
+    /* padding: 10px 20px; */
+    border: none;
+    outline: none;
+}
+#input-icons {
+    color: gray;
+}
+/* searchbar Ends */
+
+/* Buttons Starts */
+.btn{
+    margin: 30px ;
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+/* Buttons Ends */
+
